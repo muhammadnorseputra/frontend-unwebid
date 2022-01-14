@@ -5,9 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="color-scheme" content="dark">
 		<title>Home Page</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="/public/output.css" type="text/css">
 	</head>
-	<body class="dark:bg-slate-900">
+	<body class="dark:bg-slate-900 overflow-x-hidden">
 		<!-- Notif -->
 		<div class="bg-red-600 p-3 text-white dark:bg-pink-800 dark:text-white">
 			<div class="container mx-auto  flex items-center justify-between">
@@ -16,7 +20,7 @@
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
 					</svg>
 				</span>
-				<div class="w-full text-center">Ambil promo akhir tahun sekarang dengan diskon 80%</div>
+				<div class="w-full text-center font-asap">Ambil promo akhir tahun sekarang dengan diskon 80%</div>
 				<button type="button" class="p-1 border border-none hover:border-white hover:bg-gray-100 hover:text-black rounded">
 				<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -25,34 +29,34 @@
 			</div>
 		</div>
 		<!-- Nav -->
-		<nav class="border-b border-gray-200 bg-white sticky top-0 z-10 dark:bg-gray-900 dark:border-gray-700">
+		<nav class="border-b border-gray-200 bg-white sticky top-0 z-20 dark:bg-gray-900 dark:border-gray-700">
 			<div class="container mx-auto md:py-4 flex justify-between items-center dark:text-white">
 				<div>
 					<a href="#" class="font-bold flex items-center">
-						<span class="p-2 border-2 border-b-4 border-black rounded-md mr-2 text-2xl dark:border-pink-500">U</span>
-						<span>UNWEB.ID <br> <b class="text-sm text-gray-400 font-normal">Undangan Website Digital</b></span>
+						<span class="p-2 border-2 border-b-4 border-black rounded-md mr-2 text-2xl dark:border-pink-500 font-asap">U</span>
+						<span class="font-lora">UNWEB.ID <br> <b class="text-sm text-gray-400 font-normal font-asap">Undangan Website Digital</b></span>
 					</a>
 				</div>
 				<div>
 					<ul class="flex gap-x-4">
 						<li>
-							<a href="#" class="px-5 rounded-xl transition duration-150 font-bold text-red-300 hover:font-bold">Beranda</a>
+							<a href="#" class="font-asap px-5 rounded-xl transition duration-150 font-bold text-red-300 hover:font-bold">Beranda</a>
 						</li>
 						<li>
-							<a href="#" class="transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300">Katalog
+							<a href="#" class="font-asap transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300">Katalog
 								<span class="animate-ping absolute h-3 w-3 rounded-full bg-red-400 opacity-75 top-8"></span>
 								<span class="relative inline-flex rounded-full h-2 w-2 bg-red-500 -translate-y-2"></span>
 							</a>
 							
 						</li>
 						<li>
-							<a href="#" class="transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300">Tentang Kami</a>
+							<a href="#" class="font-asap transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300">Tentang Kami</a>
 						</li>
 						<li>
-							<a href="#" class="transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300">Testimonial</a>
+							<a href="#" class="font-asap transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300">Testimonial</a>
 						</li>
 						<li>
-							<a href="#" class="transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300">Harga</a>
+							<a href="#price-list" class="font-asap transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300">Harga</a>
 						</li>
 					</ul>
 				</div>
@@ -65,7 +69,7 @@
 						</button>
 					</div>
 					<div>
-						<a href="#" class="rounded-md px-3 py-2 text-center flex border-2 border-b-4 border-black dark:border-pink-500">
+						<a href="#" class="font-asap rounded-md px-3 py-2 text-center flex border-2 border-b-4 border-black dark:border-pink-500">
 							Isi Blanko
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
@@ -76,24 +80,27 @@
 			</div>
 		</nav>
 		<!-- Heros -->
-		<section class="py-12 bg-red-50 rounded-b-2xl h-full overflow-hidden dark:bg-gray-900">
-			<div class="container mx-auto flex items-center justify-between">
+		<section class="py-12 overflow-hidden dark:bg-gray-900/50 bg-white/50 filter backdrop-blur-xl">
+			<div class="container mx-auto flex items-center justify-between relative">
+				<div class="absolute w-64 h-64 rounded-full animate-pulse bg-purple-400 filter blur-3xl -top-12 -z-10 opacity-40"></div>
+				<div class="absolute w-64 h-64 rounded-full animate-pulse bg-blue-400 filter blur-3xl bottom-0 left-4 -z-10 opacity-40"></div>
+				<div class="absolute w-64 h-64 rounded-full animate-pulse bg-yellow-400 filter blur-3xl bottom-12 translate-x-56 -z-10 opacity-30"></div>
 				<div class="pl-11">
-					<p class="flex items-center dark:text-white">
+					<p class="flex items-center dark:text-white font-asap select-none">
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 animate-pulse" fill="red" viewBox="0 0 24 24" stroke="currentColor">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
 						</svg>
 						Hi, Selamat datang di unweb.id
 					</p>
-					<h1 class="text-5xl font-bold font-black leading-snug dark:text-white">
-					Buat <span class="underline underline-offset-4 decoration-pink-400 text-pink-500">undangan pernikahan</span> <br>
+					<h1 class="text-5xl font-bold font-black leading-snug dark:text-white font-lora select-none">
+					Buat <span class="underline underline-offset-4 decoration-pink-400 text-pink-500 ">undangan pernikahan</span> <br>
 					jadi lebih mudah dan praktis.
 					</h1>
-					<p class="leading-loose pr-16 mt-5 dark:text-gray-200">
+					<p class="select-none leading-loose pr-16 mt-5 dark:text-gray-200 font-lora">
 						Kami siap membantu anda untuk membuat undangan digital berbasis web, dengan tampilan yang lebih modern dan mundah digunakan.
 						Banyak pilihan tema yang tersedia yok cek sekarang !
 					</p>
-					<a href="#" class="border-2 border-b-4 rounded-md border-black bg-white px-5 py-3 inline-flex items-center mt-5 mr-3 transition duration-250 hover:-translate-y-0.5  hover:drop-shadow-xl">
+					<a href="#" class="border-2 border-b-4 rounded-md border-black bg-white px-5 py-3 inline-flex items-center mt-8 mr-3 transition duration-250 hover:-translate-y-0.5  hover:drop-shadow-xl">
 						<span class="mr-3">Lihat Katalog</span>
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
 							<path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
@@ -112,117 +119,452 @@
 				</div>
 			</div>
 		</section>
-		<!-- Kategori -->
-		<section class="my-12">
+		<!-- Fitur -->
+		<section class="mb-12 py-20">
 			<div class="container mx-auto">
-				<h1 class="flex items-center gap-2 text-3xl font-bold leading-loose dark:text-white">
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
-					<path fill-rule="evenodd" d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z" clip-rule="evenodd" />
+				<div class="flex justify-start items-start gap-x-20">
+					<div class="w-[40%]">
+						<img class="opacity-80" src="/assets/svg/undraw_order_confirmed_re_g0if.svg" alt="order-complete">
+					</div>
+					<div class="relative">
+						<h1 class="text-4xl font-bold font-black font-lora mb-5 dark:text-gray-100">Mengapa Memilih Kami ?</h1>
+						<ul class="space-y-3 z-10">
+							<li class="flex items-center gap-3 group">
+								<div>
+									<svg class="w-8 h-8 text-green-200 group-hover:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+								</div>
+								<div class="normal-case font-asap leading-relaxed tracking-wider dark:text-gray-300">
+									Bikin undangan bisa dimana aja dan kapan saja
+								</div>
+							</li>
+							<li class="flex items-center gap-3 group">
+								<div>
+									<svg class="w-8 h-8 text-green-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+								</div>
+								<div class="normal-case font-asap leading-relaxed tracking-wider dark:text-gray-300">
+									Bagikan undangan tanpa batas <br>
+								</div>
+							</li>
+							<li class="flex items-center gap-3 group">
+								<div>
+									<svg class="w-8 h-8 text-green-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+								</div>
+								<div class="normal-case font-asap leading-relaxed tracking-wider dark:text-gray-300">
+									Tersedia fitur nama tamu yang bisa ditambahkan sendiri <br>
+								</div>
+							</li>
+							<li class="flex items-center gap-3 group">
+								<div>
+									<svg class="w-8 h-8 text-green-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+								</div>
+								<div class="normal-case font-asap leading-relaxed tracking-wider dark:text-gray-300">
+									Tempel foto kamu di instagram dengan hastag <code class="bg-slate-100 dark:bg-slate-700 rounded-md p-1 text-sm">#unweb_namamempelai</code> <br>
+								</div>
+							</li>
+							<li class="flex items-center gap-3 group">
+								<div>
+									<svg class="w-8 h-8 text-green-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+								</div>
+								<div class="normal-case font-asap leading-relaxed tracking-wider dark:text-gray-300">
+									Tersedia banyak pilihan tema yang dapat dipilih
+								</div>
+							</li>
+							<li class="flex items-center gap-3 group">
+								<div>
+									<svg class="w-8 h-8 text-green-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+								</div>
+								<div class="normal-case font-asap leading-relaxed tracking-wider dark:text-gray-300">
+									Proses pembuatan lebih cepat
+								</div>
+							</li>
+							<li class="flex items-center gap-3 group">
+								<div>
+									<svg class="w-8 h-8 text-green-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+								</div>
+								<div class="normal-case font-asap leading-relaxed tracking-wider dark:text-gray-300">
+									Pelayanan 1x24 jam jika tidak terjadi kendala sesuatu hal
+								</div>
+							</li>
+							<li class="flex items-center gap-3 group">
+								<div>
+									<svg class="w-8 h-8 text-green-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+								</div>
+								<div class="normal-case font-asap leading-relaxed tracking-wider dark:text-gray-300">
+									Bisa dilakukan revisi
+								</div>
+							</li>
+							<li class="flex items-center gap-3 group">
+								<div>
+									<svg class="w-8 h-8 text-green-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+								</div>
+								<div class="normal-case font-asap leading-relaxed tracking-wider dark:text-gray-300">
+									Dan masih banyak lagi ...
+								</div>
+							</li>
+						</ul>
+						<img class="absolute -bottom-5 -right-20 w-60 z-0 opacity-10" src="/assets/svg/undraw_nature_m5ll.svg" alt="nature">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Fitur Unggulan -->
+	<section class="mb-12">
+		<div class="container mx-auto">
+			<div class="flex flex-col items-center justify-center">
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 mb-8 text-yellow-400 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
 				</svg>
-				Kategori's
-				</h1>
-				<p class="font-light leading-loose mb-5 dark:text-gray-200">
-					Banyak pilihan tema yang telah kami kategorikan.
-				</p>
-				<div class="grid grid-rows-1 grid-cols-5 gap-8 text-center">
-					<a href="#" class="group">
-						<div class="pb-10 pt-5 bg-red-50 rounded-xl flex flex-col justify-center items-center group-hover:bg-red-100 transition duration-300 border-2 border-b-4 border-pink-300 group-hover:-translate-y-2 group-hover:shadow-xl dark:bg-gray-900 dark:border-pink-500 dark:hover:shadow-pink-500 dark:hover:bg-slate-800">
-							<div class="p-8 bg-gray-50 dark:bg-slate-800 rounded-full w-24 h-24 overflow-hidden flex items-center justify-center dark:bg-pink-50">
-								<svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24  group-hover:scale-125  dark:fill-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z" />
-								</svg>
-							</div>
-							<h2 class="leading-loose font-bold text-lg mt-5 dark:text-white">Minimalis</h2>
+				<h1 class="text-4xl font-bold font-black font-lora mb-5 dark:text-gray-100">Fitur Yang Akan Didapatkan</h1>
+			</div>
+		</div>
+	</section>
+	<!-- Kategori -->
+	<section class="mb-12 py-20 bg-pink-400/70 dark:bg-slate-300/30 relative">
+		<img class="absolute inset-0 -z-20 opacity-10 rotate-30" src="/assets/images/time-bg.png" alt="abs">
+		<div class="container mx-auto">
+			<h1 class="flex items-center gap-2 text-3xl font-bold leading-loose dark:text-white font-lora">
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+				<path fill-rule="evenodd" d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z" clip-rule="evenodd" />
+			</svg>
+			Kategori's
+			</h1>
+			<p class="font-light leading-loose mb-5 dark:text-gray-200 font-asap">
+				Banyak pilihan tema yang telah kami kategorikan.
+			</p>
+			<div class="grid grid-rows-1 grid-cols-6 gap-8 text-center">
+				<a href="#" class="group">
+					<div class="pb-10 pt-5 bg-red-50 rounded-xl flex flex-col justify-center items-center group-hover:bg-red-100 transition duration-300 border-2 border-b-4 border-pink-300 group-hover:-translate-y-2 group-hover:shadow-xl dark:bg-gray-900 dark:border-pink-500 dark:hover:shadow-pink-500 dark:hover:bg-slate-800">
+						<div class="p-8 bg-gray-50 dark:bg-slate-800 rounded-full w-24 h-24 overflow-hidden flex items-center justify-center dark:bg-pink-50">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24  group-hover:scale-125  dark:fill-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z" />
+							</svg>
 						</div>
+						<h2 class="leading-loose font-bold text-lg mt-5 dark:text-white">Minimalis</h2>
+					</div>
+				</a>
+				<a href="#" class="group">
+					<div class="pb-10 pt-5 bg-red-50 rounded-xl flex flex-col justify-center items-center group-hover:bg-red-100 transition duration-300 border-2 border-b-4 border-pink-300 group-hover:-translate-y-2 group-hover:shadow-xl dark:bg-gray-900 dark:border-pink-500 dark:hover:shadow-pink-500 dark:hover:bg-slate-800">
+						<div class="p-8 bg-gray-50 dark:bg-slate-800 rounded-full w-24 h-24 overflow-hidden flex items-center justify-center dark:bg-pink-50">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24  group-hover:scale-125  dark:fill-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z" />
+							</svg>
+						</div>
+						<h2 class="leading-loose font-bold text-lg mt-5 dark:text-white">Minimalis</h2>
+					</div>
+				</a>
+				<a href="#" class="group">
+					<div class="pb-10 pt-5 bg-red-50 rounded-xl flex flex-col justify-center items-center group-hover:bg-red-100 transition duration-300 border-2 border-b-4 border-pink-300 group-hover:-translate-y-2 group-hover:shadow-xl dark:bg-gray-900 dark:border-pink-500 dark:hover:shadow-pink-500 dark:hover:bg-slate-800">
+						<div class="p-8 bg-gray-50 dark:bg-slate-800 rounded-full w-24 h-24 overflow-hidden flex items-center justify-center dark:bg-pink-50">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24  group-hover:scale-125  dark:fill-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z" />
+							</svg>
+						</div>
+						<h2 class="leading-loose font-bold text-lg mt-5 dark:text-white">Minimalis</h2>
+					</div>
+				</a>
+				<a href="#" class="group">
+					<div class="pb-10 pt-5 bg-red-50 rounded-xl flex flex-col justify-center items-center group-hover:bg-red-100 transition duration-300 border-2 border-b-4 border-pink-300 group-hover:-translate-y-2 group-hover:shadow-xl dark:bg-gray-900 dark:border-pink-500 dark:hover:shadow-pink-500 dark:hover:bg-slate-800">
+						<div class="p-8 bg-gray-50 dark:bg-slate-800 rounded-full w-24 h-24 overflow-hidden flex items-center justify-center dark:bg-pink-50">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24  group-hover:scale-125  dark:fill-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z" />
+							</svg>
+						</div>
+						<h2 class="leading-loose font-bold text-lg mt-5 dark:text-white">Minimalis</h2>
+					</div>
+				</a>
+				<a href="#" class="group">
+					<div class="pb-10 pt-5 bg-red-50 rounded-xl flex flex-col justify-center items-center group-hover:bg-red-100 transition duration-300 border-2 border-b-4 border-pink-300 group-hover:-translate-y-2 group-hover:shadow-xl dark:bg-gray-900 dark:border-pink-500 dark:hover:shadow-pink-500 dark:hover:bg-slate-800">
+						<div class="p-8 bg-gray-50 dark:bg-slate-800 rounded-full w-24 h-24 overflow-hidden flex items-center justify-center dark:bg-pink-50">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24  group-hover:scale-125  dark:fill-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z" />
+							</svg>
+						</div>
+						<h2 class="leading-loose font-bold text-lg mt-5 dark:text-white">Minimalis</h2>
+					</div>
+				</a>
+				<a href="#" class="group">
+					<div class="pb-10 pt-5 bg-red-50 rounded-xl flex flex-col justify-center items-center group-hover:bg-red-100 transition duration-300 border-2 border-b-4 border-pink-300 group-hover:-translate-y-2 group-hover:shadow-xl dark:bg-gray-900 dark:border-pink-500 dark:hover:shadow-pink-500 dark:hover:bg-slate-800">
+						<div class="p-8 bg-gray-50 dark:bg-slate-800 rounded-full w-24 h-24 overflow-hidden flex items-center justify-center dark:bg-pink-50">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24  group-hover:scale-125  dark:fill-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z" />
+							</svg>
+						</div>
+						<h2 class="leading-loose font-bold text-lg mt-5 dark:text-white">Minimalis</h2>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- Katalog -->
+	<section class="mb-12">
+		<div class="container mx-auto">
+			<div class="flex justify-between items-center">
+				<div>
+					<h1 class="flex items-center gap-2 text-3xl font-bold leading-loose dark:text-white font-lora">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+						<path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
+					</svg>
+					Katalog's
+					</h1>
+					<p class="font-light leading-loose mb-5 dark:text-gray-200 font-asap">
+						Katalog undangan yang paling baru
+					</p>
+				</div>
+				<div>
+					<a href="#" class="font-bold font-asap inline-flex items-center justify-center dark:text-red-300 dark:hover:text-gray-600 hover:text-gray-300">
+						<span>Lihat Lainnya</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mt-1 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
 					</a>
 				</div>
 			</div>
-		</section>
-		<!-- Katalog -->
-		<section class="mb-12">
-			<div class="container mx-auto">
-				<div class="flex justify-between items-center">
-					<div>
-						<h1 class="flex items-center gap-2 text-3xl font-bold leading-loose dark:text-white">
-						<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
-							<path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
-						</svg>
-						Katalog's
-						</h1>
-						<p class="font-light leading-loose mb-5 dark:text-gray-200">
-							Katalog undangan yang paling baru
-						</p>
-					</div>
-					<div>
-						<a href="#" class="font-bold inline-flex items-center justify-center dark:text-red-300 dark:hover:text-gray-600 hover:text-gray-300">
-							<span>Lihat Lainnya</span>
-							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mt-1 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+			<div class="grid grid-rows-1 grid-cols-5 space-x-8">
+				<figure class="relative rounded-lg overflow-hidden group w-100">
+					<img class="object-cover object-center rounded-lg w-full h-full" src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="01">
+					<figcaption class="absolute bottom-5 z-10 text-center w-full">
+					<h1 class="first-of-type:text-2xl font-bold text-white text-center truncate">Putra & Nimah</h1>
+					<p class="text-gray-100">
+						4 July 2021
+					</p>
+					</figcaption>
+					<!-- Overlay -->
+					<div class="absolute w-full h-full transition-all duration-250 bg-black opacity-70 top-0 left-0 group-hover:opacity-50"></div>
+					<a href="#" class="group">
+						<div class="absolute transition-all duration-150 top-3 right-3 text-gray-400 flex items-center justify-center space-x-3 rounded-full bg-white py-2 px-3 border-b-3">
+							<span class="text-sm">
+								Open
+							</span>
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
 							</svg>
-						</a>
+						</div>
+					</a>
+					
+				</figure>
+				<figure class="relative rounded-lg overflow-hidden group w-100">
+					<img class="object-cover object-center rounded-lg w-full h-full" src="https://images.unsplash.com/photo-1537907690979-ee8e01276184?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2VkZGluZ3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60" alt="01">
+					<figcaption class="absolute bottom-5 z-10 text-center w-full">
+					<h1 class="first-of-type:text-xl font-bold text-white text-center truncate">Putra & Nimah</h1>
+					<p class="text-gray-100">
+						4 July 2021
+					</p>
+					</figcaption>
+					<!-- Overlay -->
+					<div class="absolute w-full h-full transition-all duration-250 bg-black opacity-70 top-0 left-0 group-hover:opacity-50"></div>
+					<a href="#" class="group">
+						<div class="absolute transition-all duration-150 top-3 right-3 text-gray-400 flex items-center justify-center space-x-3 rounded-full bg-white py-2 px-3 border-b-3">
+							<span class="text-sm">
+								Open
+							</span>
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+							</svg>
+						</div>
+					</a>
+					
+				</figure>
+			</div>
+		</div>
+	</section>
+	<!-- Harga -->
+	<section class="mb-12" id="price-list">
+		<div class="container mx-auto">
+			<h1 class="flex items-center gap-2 text-3xl font-bold leading-loose dark:text-white font-lora">
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+				<path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
+				<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clip-rule="evenodd" />
+			</svg>
+			Harga Spesial
+			</h1>
+			<p class="font-light leading-loose mb-5 dark:text-gray-200 font-asap">
+				Ada diskon untuk tahun 2022, ayo ambil diskonnya sekarang !
+			</p>
+			<div class="grid grid-rows-1 grid-cols-3 gap-5">
+				<!-- Start First Plan -->
+				<div class="relative flex flex-col justify-between p-8 lg:p-6 xl:p-8 rounded-2xl">
+					<div class="absolute inset-0 w-full h-full transform translate-x-2 translate-y-2 bg-green-50 rounded-2xl"></div>
+					<div class="absolute inset-0 w-full h-full border-2 border-b-4 border-gray-900 rounded-2xl"></div>
+					<div class="relative flex pb-5 space-x-5 border-b border-gray-200 lg:space-x-3 xl:space-x-5">
+					<svg class="w-16 h-16 text-green-400 rounded-2xl" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><rect x="0" y="0" width="150" height="150" rx="15"></rect></defs><g fill="none" fill-rule="evenodd"><mask fill="#fff"><use xlink:href="#plan1"></use></mask><use fill="currentColor" xlink:href="#plan1"></use><circle fill-opacity=".3" fill="#FFF" mask="url(#plan1)" cx="125" cy="25" r="50"></circle><path fill-opacity=".3" fill="#FFF" mask="url(#plan1)" d="M-33 83H67v100H-33z"></path></g></svg>
+					<div class="relative flex flex-col items-start">
+						<h3 class="text-xl font-bold">Basic Plan</h3>
+						<p class="tracking-tight text-gray-500">
+							<span class="text-sm transform inline-block -translate-y-2.5 relative">$</span>
+							<span class="text-3xl font-bold text-gray-800">10</span>
+							<span class="text-sm -translate-y-0.5 inline-block transform">/ user</span>
+						</p>
 					</div>
 				</div>
-				<div class="grid grid-rows-1 grid-cols-5 space-x-8">
-					<figure class="relative rounded-lg overflow-hidden group w-100">
-						<img class="object-cover object-center rounded-lg w-full h-full" src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="01">
-						<figcaption class="absolute bottom-5 z-10 text-center w-full">
-						<h1 class="first-of-type:text-2xl font-bold text-white text-center truncate">Putra & Nimah</h1>
-						<p class="text-gray-100">
-							4 July 2021
-						</p>
-						</figcaption>
-						<!-- Overlay -->
-						<div class="absolute w-full h-full transition-all duration-250 bg-black opacity-70 top-0 left-0 group-hover:opacity-50"></div>
-						<a href="#" class="group">
-							<div class="absolute transition-all duration-150 top-3 right-3 text-gray-400 flex items-center justify-center space-x-3 rounded-full bg-white py-2 px-3 border-b-3">
-								<span class="text-sm">
-									Open
-								</span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-								</svg>
-							</div>
-						</a>
-						
-					</figure>
-					<figure class="relative rounded-lg overflow-hidden group w-100">
-						<img class="object-cover object-center rounded-lg w-full h-full" src="https://images.unsplash.com/photo-1537907690979-ee8e01276184?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2VkZGluZ3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60" alt="01">
-						<figcaption class="absolute bottom-5 z-10 text-center w-full">
-						<h1 class="first-of-type:text-xl font-bold text-white text-center truncate">Putra & Nimah</h1>
-						<p class="text-gray-100">
-							4 July 2021
-						</p>
-						</figcaption>
-						<!-- Overlay -->
-						<div class="absolute w-full h-full transition-all duration-250 bg-black opacity-70 top-0 left-0 group-hover:opacity-50"></div>
-						<a href="#" class="group">
-							<div class="absolute transition-all duration-150 top-3 right-3 text-gray-400 flex items-center justify-center space-x-3 rounded-full bg-white py-2 px-3 border-b-3">
-								<span class="text-sm">
-									Open
-								</span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-								</svg>
-							</div>
-						</a>
-						
-					</figure>
-				</div>
-			</div>
-		</section>
-		<!-- Harga -->
-		<section class="mb-12">
-			<div class="container mx-auto">
-				<h1 class="flex items-center gap-2 text-3xl font-bold leading-loose dark:text-white">
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
-					<path fill-rule="evenodd" d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z" clip-rule="evenodd" />
-				</svg>
-				Harga Spesial
-				</h1>
-				<p class="font-light leading-loose mb-5 dark:text-gray-200">
-					Ada diskon untuk tahun 2022 !
-				</p>
-			</div>
-		</section>
-	</body>
+				<ul class="relative py-12 space-y-3">
+					<li class="flex items-center space-x-2 text-sm font-medium text-gray-500">
+					<svg class="w-6 h-6 text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+					<span>Custom Design &amp; Features</span>
+				</li>
+				<li class="flex items-center space-x-2 text-sm font-medium text-gray-500">
+				<svg class="w-6 h-6 text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+				<span>Access to 100+ Components</span>
+			</li>
+			<li class="flex items-center space-x-2 text-sm font-medium text-gray-500">
+			<svg class="w-6 h-6 text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+			<span>Priority Email Support</span>
+		</li>
+	</ul>
+	<a href="#_" class="relative flex items-center justify-center w-full px-5 py-5 text-lg font-medium text-white rounded-xl group">
+		<span class="w-full h-full absolute inset-0 transform translate-y-1.5 translate-x-1.5 group-hover:translate-y-0 group-hover:translate-x-0 transition-all ease-out duration-200 rounded-xl bg-green-500"></span>
+		<span class="absolute inset-0 w-full h-full border-2 border-gray-900 rounded-xl"></span>
+		<span class="relative">Choose Plan</span>
+	<svg class="w-5 h-5 ml-2 transition-all duration-200 ease-out transform group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+</a>
+</div>
+<!-- End First Plan -->
+<!-- Start Middle Plan -->
+<div class="relative p-8 lg:p-6 xl:p-8 rounded-2xl">
+<div class="absolute inset-0 w-full h-full transform translate-x-2 translate-y-2 bg-blue-50 rounded-2xl"></div>
+<div class="absolute inset-0 w-full h-full border-2 border-b-4 border-gray-900 rounded-2xl"></div>
+<div class="relative flex pb-5 space-x-5 border-b border-gray-200 lg:space-x-3 xl:space-x-5">
+<svg class="w-16 h-16 text-indigo-400 rounded-2xl" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><rect x="0" y="0" width="150" height="150" rx="15"></rect></defs><g fill="none" fill-rule="evenodd"><mask fill="#fff"><use xlink:href="#plan1"></use></mask><use fill="currentColor" xlink:href="#plan1"></use><circle fill-opacity=".3" fill="#FFF" mask="url(#plan1)" cx="125" cy="25" r="50"></circle><path fill-opacity=".3" fill="#FFF" mask="url(#plan1)" d="M-33 83H67v100H-33z"></path></g></svg>
+<div class="relative flex flex-col items-start">
+	<h3 class="text-xl font-bold">Professional Plan</h3>
+	<p class="tracking-tight text-gray-500">
+		<span class="text-sm transform inline-block -translate-y-2.5 relative">$</span>
+		<span class="text-3xl font-bold text-gray-800">25</span>
+		<span class="text-sm -translate-y-0.5 inline-block transform">/ user</span>
+	</p>
+</div>
+</div>
+<ul class="relative py-12 space-y-3">
+<li class="flex items-center space-x-2 text-sm font-medium text-gray-500">
+<svg class="w-6 h-6 text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+<span>Dedicated Design Team</span>
+</li>
+<li class="flex items-center space-x-2 text-sm font-medium text-gray-500">
+<svg class="w-6 h-6 text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+<span>Custom Design &amp; Features</span>
+</li>
+<li class="flex items-center space-x-2 text-sm font-medium text-gray-500">
+<svg class="w-6 h-6 text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+<span>Access to 200+ Components</span>
+</li>
+<li class="flex items-center space-x-2 text-sm font-medium text-gray-500">
+<svg class="w-6 h-6 text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+<span>Priority Email &amp; Chat Support</span>
+</li>
+</ul>
+<a href="#_" class="relative flex items-center justify-center w-full px-5 py-5 text-lg font-medium text-white rounded-xl group">
+<span class="w-full h-full absolute inset-0 transform translate-y-1.5 translate-x-1.5 group-hover:translate-y-0 group-hover:translate-x-0 transition-all ease-out duration-200 rounded-xl bg-blue-600"></span>
+<span class="absolute inset-0 w-full h-full border-2 border-gray-900 rounded-xl"></span>
+<span class="relative">Choose Plan</span>
+<svg class="w-5 h-5 ml-2 transition-all duration-200 ease-out transform group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+</a>
+</div>
+<!-- End Middle Plan -->
+<!-- Start Third Plan -->
+<div class="relative flex flex-col justify-between p-8 lg:p-6 xl:p-8 rounded-2xl md:col-span-2 lg:col-span-1">
+<div class="absolute inset-0 w-full h-full transform translate-x-2 translate-y-2 bg-red-50 rounded-2xl"></div>
+<div class="absolute inset-0 w-full h-full border-2 border-b-4 border-gray-900 rounded-2xl dark:border-gray-100"></div>
+<div class="relative flex pb-5 space-x-5 border-b border-gray-200 lg:space-x-3 xl:space-x-5">
+<svg class="w-16 h-16 text-red-400 rounded-2xl" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><rect x="0" y="0" width="150" height="150" rx="15"></rect></defs><g fill="none" fill-rule="evenodd"><mask fill="#fff"><use xlink:href="#plan1"></use></mask><use fill="currentColor" xlink:href="#plan1"></use><circle fill-opacity=".3" fill="#FFF" mask="url(#plan1)" cx="125" cy="25" r="50"></circle><path fill-opacity=".3" fill="#FFF" mask="url(#plan1)" d="M-33 83H67v100H-33z"></path></g></svg>
+<div class="relative flex flex-col items-start">
+<h3 class="text-xl font-bold">Enterprise Plan</h3>
+<p class="tracking-tight text-gray-500">
+<span class="text-sm transform inline-block -translate-y-2.5 relative">$</span>
+<span class="text-3xl font-bold text-gray-800">35</span>
+<span class="text-sm -translate-y-0.5 inline-block transform">/ user</span>
+</p>
+</div>
+</div>
+<ul class="relative py-12 space-y-3">
+<li class="flex items-center space-x-2 text-sm font-medium text-gray-500">
+<svg class="w-6 h-6 text-red-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+<span>Dedicated Design &amp; Dev Team</span>
+</li>
+<li class="flex items-center space-x-2 text-sm font-medium text-gray-500">
+<svg class="w-6 h-6 text-red-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+<span>Custom Design &amp; Features</span>
+</li>
+<li class="flex items-center space-x-2 text-sm font-medium text-gray-500">
+<svg class="w-6 h-6 text-red-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+<span>Access to 500+ Components</span>
+</li>
+<li class="flex items-center space-x-2 text-sm font-medium text-gray-500">
+<svg class="w-6 h-6 text-red-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+<span>Priority Phone Support</span>
+</li>
+</ul>
+<a href="#_" class="relative flex items-center justify-center w-full px-5 py-5 text-lg font-medium text-white rounded-xl group">
+<span class="w-full h-full absolute inset-0 transform translate-y-1.5 translate-x-1.5 group-hover:translate-y-0 group-hover:translate-x-0 transition-all ease-out duration-200 rounded-xl bg-red-400"></span>
+<span class="absolute inset-0 w-full h-full border-2 border-gray-900 rounded-xl"></span>
+<span class="relative">Choose Plan</span>
+<svg class="w-5 h-5 ml-2 transition-all duration-200 ease-out transform group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+</a>
+</div>
+<!-- End Third Plan -->
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+<div class="container mx-auto">
+<div class="flex w-full justify-center mb-8">
+<a href="#" class="font-bold inline-flex flex-col items-center justify-center text-center">
+<span class="p-2 border-2 border-b-4 border-red-500 rounded-md mr-2 text-2xl dark:border-pink-500 mb-2 text-red-300">U</span>
+<span class="dark:text-white">UNWEB.ID <br> <b class="text-sm text-gray-400 font-light">Undangan Website Digital</b></span>
+</a>
+</div>
+<div class="flex w-full justify-center mb-10">
+<ul>
+<li class="space-x-10">
+<a href="#" class="text-gray-500 hover:underline dark:text-gray-600">Trims Of Service</a>
+<a href="#" class="text-gray-500 hover:underline dark:text-gray-600">Privacy & Policy</a>
+<a href="#" class="text-gray-500 hover:underline dark:text-gray-600">Sitemap</a>
+<a href="#" class="text-gray-500 hover:underline dark:text-gray-600">Tata Cara Pemesanan</a>
+<a href="#" class="text-gray-500 hover:underline dark:text-gray-600">FAQ</a>
+<a href="#" class="text-gray-500 hover:underline dark:text-gray-600">Kontak Layanan</a>
+</li>
+</ul>
+</div>
+<div class="flex w-full justify-between items-center mb-10">
+<div class="text-gray-400 dark:text-gray-300 w-full">
+&copy; 2021 unweb.id | Undangan Website Digital
+</div>
+<div>
+<ul>
+<li class="space-x-5 flex">
+<a href="#" class="text-gray-800 dark:text-gray-200 hover:text-orange-800">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+</svg>
+</a>
+<a href="#" class="text-gray-800 dark:text-gray-200 hover:text-sky-800">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-meta" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M8.217 5.243C9.145 3.988 10.171 3 11.483 3 13.96 3 16 6.153 16.001 9.907c0 2.29-.986 3.725-2.757 3.725-1.543 0-2.395-.866-3.924-3.424l-.667-1.123-.118-.197a54.944 54.944 0 0 0-.53-.877l-1.178 2.08c-1.673 2.925-2.615 3.541-3.923 3.541C1.086 13.632 0 12.217 0 9.973 0 6.388 1.995 3 4.598 3c.319 0 .625.039.924.122.31.086.611.22.913.407.577.359 1.154.915 1.782 1.714Zm1.516 2.224c-.252-.41-.494-.787-.727-1.133L9 6.326c.845-1.305 1.543-1.954 2.372-1.954 1.723 0 3.102 2.537 3.102 5.653 0 1.188-.39 1.877-1.195 1.877-.773 0-1.142-.51-2.61-2.87l-.937-1.565ZM4.846 4.756c.725.1 1.385.634 2.34 2.001A212.13 212.13 0 0 0 5.551 9.3c-1.357 2.126-1.826 2.603-2.581 2.603-.777 0-1.24-.682-1.24-1.9 0-2.602 1.298-5.264 2.846-5.264.091 0 .181.006.27.018Z"/>
+</svg>
+</a>
+<a href="#" class="text-gray-800 dark:text-gray-200 hover:text-red-800">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+<path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg>
+</a>
+</li>
+</ul>
+</div>
+<div class="flex items-center justify-end w-full">
+<div class="inline-flex items-center">
+<span class="mr-2 dark:text-gray-700">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+</svg>
+</span>
+<span class="font-bold text-gray-500">
+Indonesia
+</span>
+</div>
+</div>
+<div>
+</div>
+</div>
+</div>
+</footer>
+</body>
 </html>

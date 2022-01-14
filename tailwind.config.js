@@ -5,7 +5,11 @@ module.exports = {
   theme: {
     extend: {},
     container: {
-      padding: '4rem',
+      padding: '2.7rem',
+    },
+    fontFamily: {
+      lora: ["'Lora', sans-serif", 'sans-serif'],
+      asap: ["'Asap', sans-serif", 'serif'],
     },
   },
   plugins: [
