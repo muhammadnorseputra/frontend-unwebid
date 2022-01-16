@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {},
     container: {
-      padding: '2.7rem',
+      padding: '2rem',
     },
     fontFamily: {
       lora: ["'Lora', sans-serif", 'sans-serif'],
@@ -15,8 +15,5 @@ module.exports = {
   plugins: [
   	require('tailwindcss-textshadow'),
   	require('tailwind-scrollbar')
-  ],
-  variants: {
-        scrollbar: ['rounded','dark']
-    }
+  ]
 }
