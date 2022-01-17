@@ -1,3 +1,7 @@
 node_modules/
 package-lock.json
 public/output.css
+
+.firebase/
+.firebaserc
+.github/
