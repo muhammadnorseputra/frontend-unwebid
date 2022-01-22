@@ -31,7 +31,7 @@
         </div>
     </div>
     <!-- Nav -->
-    <nav class="border-b border-gray-200 bg-white sticky top-0 z-20 dark:bg-gray-900 dark:border-gray-700">
+    <nav class="bg-white dark:bg-gray-900">
         <div class="container mx-auto py-2 lg:py-4 flex justify-between items-center dark:text-white">
             <div>
                 <a href="#" class="font-bold flex items-center group">
@@ -90,19 +90,17 @@
         </div>
     </nav>
     <!-- Heros -->
-    <section class="py-12 overflow-hidden bg-gradient-to-b from-white/90 dark:from-transparent dark:to-transparent to-gray-400/30 filter backdrop-blur-sm dark:backdrop-blur-none">
-        <div class="container mx-auto flex lg:flex-row flex-col items-center justify-between relative">
-            <div class="dark:hidden absolute w-64 h-64 rounded-full animate-pulse bg-purple-400 filter blur-3xl -top-12 -z-10 opacity-40"></div>
-            <div class="dark:hidden absolute w-64 h-64 rounded-full animate-pulse bg-blue-400 filter blur-3xl bottom-0 left-4 -z-10 opacity-40"></div>
-            <div class="dark:hidden absolute w-64 h-64 rounded-full animate-pulse bg-yellow-400 filter blur-3xl bottom-12 translate-x-56 -z-10 opacity-30"></div>
-            <div class="order-last lg:order-first">
-                <p class="flex items-center text-black dark:text-white font-asap select-none">
+    <section class="relative py-20 overflow-hidden bg-[url('https://images.unsplash.com/photo-1469371670807-013ccf25f16a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')] bg-no-repeat bg-center bg-cover">
+        <div class="absolute inset-0 z-10 w-screen h-full bg-gradient-to-b from-white/80 to-sky-50 dark:from-transparent dark:to-transparent filter backdrop-blur-3xl dark:backdrop-blur-none"></div>
+        <div class="container mx-auto flex lg:flex-row flex-col items-center justify-between z-20 relative">
+            <div class="order-last lg:order-first sm:pr-20">
+                <p class="flex items-center text-black dark:text-white font-asap select-none mb-5">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 animate-pulse" fill="red" viewBox="0 0 24 24" stroke="none">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                     </svg>
                     Hi, Selamat datang di unweb.id
                 </p>
-                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold font-black leading-normal lg:leading-snug text-gray-800 dark:text-white font-asap select-none">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl capitalize font-bold font-black leading-normal lg:leading-snug text-gray-800 dark:text-white font-asap select-none">
                     Buat <span class="underline underline-offset-4 decoration-pink-400 text-pink-500 ">undangan pernikahan</span> <br>
                     jadi lebih mudah dan praktis.
                 </h1>
@@ -126,7 +124,22 @@
                 </div>
             </div>
             <div>
-                <img src="/assets/svg/undraw_real_time_sync_re_nky7.svg" alt="hero">
+                <div class="flex flex-col rounded-xl overflow-hidden border-2 border-white transition duration-150 cursor-pointer drop-shadow-2xl max-h-full bg-gradient-to-t from-white group">
+                    <img class="w-full" src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="discover">
+                    <figcaption class="px-8 py-5 font-asap inline-flex justify-between items-center">
+                        <div>
+                            <p class="font-bold text-gray-300">Basic</p>
+                            <p class="font-bold text-xl text-indigo-500">Putra & Nimah</p>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76" />
+                                </svg>
+                            </a>
+                        </div>
+                    </figcaption>
+                </div>
             </div>
         </div>
     </section>
@@ -134,13 +147,13 @@
     <section class="mt-12">
         <!-- <img class="absolute inset-0 -z-20 opacity-10 dark:opacity-40 rotate-30" src="/assets/images/time-bg.png" alt="abs"> -->
         <div class="container mx-auto mb-12 dark:bg-gray-800/70 relative">
-            <h1 class="flex items-center gap-2 text-3xl font-bold leading-loose text-gray-600 font-lora">
+            <h1 class="flex items-center justify-center gap-2 text-4xl font-bold leading-loose text-gray-600 font-lora">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z" clip-rule="evenodd" />
                 </svg>
                 Kategori's
             </h1>
-            <p class="font-light leading-loose mb-5 text-gray-500 dark:text-gray-200 font-asap">
+            <p class="font-light leading-loose mb-5 text-gray-500 dark:text-gray-200 font-asap text-center">
                 Banyak pilihan tema yang telah kami kategorikan.
             </p>
             <div class="grid grid-rows-1 grid-cols-2 lg:grid-cols-6 gap-8 text-center">
@@ -156,7 +169,7 @@
                 </a>
             </div>
         </div>
-    </section>    
+    </section>
     <!-- Fitur -->
     <section class="mb-12 py-10">
         <div class="container mx-auto">
@@ -845,7 +858,7 @@
                 Testimonial's
             </h1>
             <p class="font-light leading-loose mb-5 text-gray-600 dark:text-gray-200 font-asap">
-                Apa kata mereka tentang unweb.id 
+                Apa kata mereka tentang unweb.id
             </p>
             <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-white rounded-lg p-6">
