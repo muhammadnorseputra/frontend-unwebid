@@ -10,3 +10,9 @@
 		@apply bg-gradient-to-b from-sky-50 bg-no-repeat dark:from-slate-900 dark:to-slate-800 overflow-x-hidden
 	}
 }
+
+@layer utilities {
+	.sub-masking {
+		@apply text-transparent bg-gradient-to-r from-red-300 to-pink-300 bg-clip-text
+	}
+}
