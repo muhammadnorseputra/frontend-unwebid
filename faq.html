@@ -15,12 +15,12 @@
 
 <body>
     <!-- Nav -->
-    <nav class="border-b border-gray-200 bg-white sticky top-0 z-20 dark:bg-gray-900 dark:border-gray-700">
+    <nav class="bg-white dark:bg-slate-700 border-b border-slate-200 dark:border-slate-600">
         <div class="container mx-auto py-2 lg:py-4 flex justify-between items-center dark:text-white">
             <div>
                 <a href="#" class="font-bold flex items-center group">
                     <span class="text-white p-1 px-2 border-2 border-b-4 border-pink-300 rounded-md mr-2 text-2xl dark:border-pink-500 font-asap bg-gradient-to-br from-pink-400 to-pink-200 group-hover:from-pink-200 group-hover:to-pink-400">U</span>
-                    <span class="font-lora text-gray-900 dark:text-white">UNWEB.ID <br> <b class="text-xs text-gray-400 font-normal font-asap leading-normal">Undangan Website Digital</b></span>
+                    <span class="font-lora text-gray-900 dark:text-white">UNWEB.ID <br> <b class="text-xs text-gray-400 font-normal font-asap leading-normal">Undangan Website Online</b></span>
                 </a>
             </div>
             <div class="hidden lg:block">
@@ -37,10 +37,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="text-black dark:text-white font-asap transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300 dark:hover:text-gray-400">Cara Order</a>
+                        <a href="#" class="text-black dark:text-white font-asap transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300 dark:hover:text-gray-400">Tentang Kami</a>
                     </li>
                     <li>
-                        <a href="#" class="text-black dark:text-white font-asap transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300 dark:hover:text-gray-400">Testimonial</a>
+                        <a href="#testimonials" class="text-black dark:text-white font-asap transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300 dark:hover:text-gray-400">Testimonial</a>
                     </li>
                     <li>
                         <a href="#price-list" class="text-black dark:text-white font-asap transition duration-200 ease-in px-5 py-7 font-bold hover:text-gray-300 dark:hover:text-gray-400">Harga</a>
@@ -49,10 +49,11 @@
             </div>
             <div class="flex justify-between items-center">
                 <div class="mr-3">
-                    <button class="border-2 border-b-4 border-black p-2 rounded-md dark:border-pink-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black dark:text-white dark:fill-yellow-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    <button id="theme-toggle" type="button" class="border-2 border-b-4 border-black p-2 rounded-md dark:border-pink-500">
+                        <svg id="theme-toggle-dark-icon" xmlns="http://www.w3.org/2000/svg" class="hidden h-6 w-5 text-black fill-slate-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
                         </svg>
+                        <svg id="theme-toggle-light-icon" class="hidden w-5 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                     </button>
                 </div>
                 <div class="hidden lg:block">
@@ -204,6 +205,8 @@
             </div>
         </div>
     </footer>
+    <script src="/src/dark-mode.js"></script>
+    <script src="/src/dark-mode-toggle.js"></script>
 </body>
 
 </html>
